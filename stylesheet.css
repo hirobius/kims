@@ -6,10 +6,27 @@ p {
     padding: 55px;
 }
 
+h1 {
+    text-align: center;
+}
+
+body { 
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 80px;
+    margin-right: 80px;    
+    padding: 8px #000000;
+    background-color: #242423;
+}
+
 .background-red {
     background-color: red;
 }
 
 #subhead {
-    background-color: blue;
+    background-color: #333533;
+}
+
+#card {
+    background-color: #333533;
 }
