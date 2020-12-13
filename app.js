@@ -8,7 +8,7 @@ console.log("Hello, world");
 
 
 
-window.onload = function () {
+//prompt, console.log and alert message
 
 var myVariableName;
 myVariableName = "Hello, WORLD!!!";
@@ -23,10 +23,14 @@ console.log("Your order of" + order + "is ready");
 console.log(myVariableName)
 
 var promptQuestion= "What is the best starter pokemon?";
-var starterPokemon = prompt(promptQuestion);
-console.log(starterPokemon);
+var response = prompt(promptQuestion);
+console.log(response);
 
-if (Response === "Squirtle") {
+var alertMessage;
+
+if (response === "Squirtle") {
+    alertmessage = "i feel it";
+
     console.log("I feel it.");
 } else if (response === "Bulbasaur") {
     alertMessage = "I mean...";
@@ -34,11 +38,9 @@ if (Response === "Squirtle") {
     alertMessage = "no.";
 }
 
-alert(alertMessage)
+alert
 
 
 var element = document.getElementById("response-output");
 console.log(element)
 
-
-}
