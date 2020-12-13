@@ -41,8 +41,11 @@ ul {
     padding: 0;
 }
 
-li {
+.nav{
     display: inline;
+    padding: 20px;
+    background-color: #F5CB5C;
+    overflow: hidden;
 }
 
 body { 
@@ -81,7 +84,7 @@ body {
 }
 
 
-#card-1 {
+.card-1 {
     background-color: #242423;
     min-width: 400px;
     float: left;
