@@ -17,7 +17,7 @@ h2 {
     color: #ffffff;
 }
 
-.h3 {
+.caption {
     font-family: Arial, Helvetica, sans-serif;
     color: #F5CB5C;
     text-transform: uppercase;
@@ -61,7 +61,7 @@ body {
 }
 
 #card-1 {
-    background-color: #ffffff;
+    background-color: #333533;
     float: left;
     margin-right:20px;
 }
