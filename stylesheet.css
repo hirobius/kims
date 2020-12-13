@@ -37,8 +37,13 @@ a {
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
+li {
+    display: inline;
+}
 
 body { 
     margin-top: 40px;
@@ -82,5 +87,7 @@ body {
     float: left;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-right: 20px;
     border-radius: 16px;
 }
+
