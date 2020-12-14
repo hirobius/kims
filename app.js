@@ -1,46 +1,35 @@
 console.log("Hello, world");
 
-// here is a comment in javascript, variables and functions are in camelCase
-//you can't print into the console without a console log, the console log outputs a method to the web console 
-//variables are like containers
-
-//return values are RETURNED to us
-
-
-
-//prompt, console.log and alert message
-
 var myVariableName;
 myVariableName = "Hello, WORLD!!!";
-
 console.log(myVariableName);
 
+var order;
+order = "black coffee"; //place order
+console.log("Your order of " + order + " is ready");
 
-var order; //walk into starbies
-order = " black coffee "; //place order
-console.log("Your order of" + order + "is ready");
 
-console.log(myVariableName)
-
-var promptQuestion= "What is the best starter pokemon?";
+var promptQuestion= "What letter does your first name start with?";
 var response = prompt(promptQuestion);
 console.log(response);
 
 var alertMessage;
-
-if (response === "Squirtle") {
-    alertmessage = "i feel it";
-
-    console.log("I feel it.");
-} else if (response === "Bulbasaur") {
+if (response === "A") {
+    alertmessage = "Nice, dude.";
+    console.log("Mine too.");
+} else if (response === "B") {
     alertMessage = "I mean...";
 } else {
-    alertMessage = "no.";
+    alertMessage = "That's too bad...";
 }
 
-alert
 
+// here is a comment in javascript
 
-var element = document.getElementById("response-output");
-console.log(element)
+//you can't print into the console without a console log, the console log outputs a method to the web console 
 
+//variables are like containers
+
+//return values are RETURNED to us
+
+//prompt, console.log and alert message
