@@ -19,6 +19,8 @@ if (response === "A") {
     console.log("Mine too.");
 } else if (response === "B") {
     alertMessage = "I mean...";
+} else if (response === "M") {
+    alertMessage = "Beauful :)";
 } else {
     alertMessage = "That's too bad...";
 }
