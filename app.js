@@ -15,14 +15,14 @@ console.log(response);
 
 var alertMessage;
 if (response === "A") {
-    alertmessage = "Nice, dude.";
+    alertMessage = "Nice, dude.";
     console.log("Mine too.");
 } else if (response === "B") {
     alertMessage = "I mean...";
 } else {
     alertMessage = "That's too bad...";
 }
-
+alert(alertMessage);
 
 // here is a comment in javascript
 
