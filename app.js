@@ -21,6 +21,8 @@ if (response === "A") {
     alertMessage = "I mean...";
 } else if (response === "M") {
     alertMessage = "Beauful :)";
+} else if (response === "m") {
+    alertMessage = "Beauful :)";
 } else {
     alertMessage = "That's too bad...";
 }
