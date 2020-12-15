@@ -12,7 +12,7 @@ function learnLetter(){
     if(response === "a") alert("Nice, dude.");
     else if(response === "b") alert("I mean...");
     else if(response === "m") alert("Beauful :)");
-    else alert("That's too bad...");
+    else learnLetter();
     console.log(response);
 }
 learnLetter();
