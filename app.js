@@ -1,13 +1,11 @@
 function automaticEngine(){
     console.log('"I think I can... I think I can..."');
 }
-
 automaticEngine();
 
 // Intended to gather the first letter of user's name
 var response;
 var promptQuestion = "What letter does your first name start with?"; 
-
 function learnLetter(){
     response = prompt(promptQuestion);
     response = response.toLowerCase();
@@ -17,14 +15,11 @@ function learnLetter(){
     else alert("That's too bad...");
     console.log(response);
 }
-
 learnLetter();
 
 var order;
-
-function orderUp() {
+function orderUp(){
     order = "black coffee";
     console.log("Your order of " + order + " is ready");
 }
-
 orderUp();
