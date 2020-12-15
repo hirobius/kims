@@ -1,31 +1,25 @@
-// Note
-function automatic(){
-    console.log("I think I can.");
+function automaticEngine(){
+    console.log('"I think I can... I think I can..."');
 }
 
-automatic();
+automaticEngine();
 
-// Note
+// Intended to gather the first letter of user's name
 var response;
+var promptQuestion = "What letter does your first name start with?"; 
 
-function getUserPrompt() {
-    var promptQuestion = "What letter does your first name start with?"; 
+function learnLetter(){
     response = prompt(promptQuestion);
     response = response.toLowerCase();
+    if(response === "a") alert("Nice, dude.");
+    else if(response === "b") alert("I mean...");
+    else if(response === "m") alert("Beauful :)");
+    else alert("That's too bad...");
     console.log(response);
-}   if (response === "a") {
-    alert("Nice, dude.");
-} else if (response === "b") {
-    alert("I mean...");
-} else if (response === "m") {
-    alert("Beauful :)");
-} else {
-    alert("That's too bad...");
 }
 
-getUserPrompt();
+learnLetter();
 
-// Note
 var order;
 
 function orderUp() {
