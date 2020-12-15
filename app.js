@@ -1,39 +1,36 @@
-console.log("Hello, world");
-
-var myVariableName;
-myVariableName = "Hello, WORLD!!!";
-console.log(myVariableName);
-
-var order;
-order = "black coffee"; //place order
-console.log("Your order of " + order + " is ready");
-
-
-var promptQuestion= "What letter does your first name start with?";
-var response = prompt(promptQuestion);
-console.log(response);
-
-var alertMessage;
-if (response === "A") {
-    alertMessage = "Nice, dude.";
-    console.log("Mine too.");
-} else if (response === "B") {
-    alertMessage = "I mean...";
-} else if (response === "M") {
-    alertMessage = "Beauful :)";
-} else if (response === "m") {
-    alertMessage = "Beauful :)";
-} else {
-    alertMessage = "That's too bad...";
+// Note
+function automatic(){
+    console.log("I think I can.");
 }
-alert(alertMessage);
 
-// here is a comment in javascript
+automatic();
 
-//you can't print into the console without a console log, the console log outputs a method to the web console 
+// Note
+var response;
 
-//variables are like containers
+function getUserPrompt() {
+    var promptQuestion = "What letter does your first name start with?"; 
+    response = prompt(promptQuestion);
+    response = response.toLowerCase();
+    console.log(response);
+}   if (response === "a") {
+    alert("Nice, dude.");
+} else if (response === "b") {
+    alert("I mean...");
+} else if (response === "m") {
+    alert("Beauful :)");
+} else {
+    alert("That's too bad...");
+}
 
-//return values are RETURNED to us
+getUserPrompt();
 
-//prompt, console.log and alert message
+// Note
+var order;
+
+function orderUp() {
+    order = "black coffee";
+    console.log("Your order of " + order + " is ready");
+}
+
+orderUp();
