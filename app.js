@@ -30,10 +30,27 @@ function howHungry(){
 }
 howHungry();
 
-var promptQuestion = "How many cabbage would you like?";
-function manyFood(){
-    hunger = prompt(promptQuestion);
-    for (var hunger = 0; hunger < (hunger); hunger++) {
-    document.createElement(<section class= "card-1">);
+function makeFood(){
+   
 }
-manyFood(hunger);
+
+
+var hunger = prompt(promptQuestion);
+
+if(response === "a") alert("Nice, dude.");
+
+var hunger = prompt("How many cabbage would you like?");
+for (var makeFood = 0; makeFood < hunger; makeFood++) {
+    document.write("<section class= "card-1">
+                    <ul>
+                        <li>
+                            <h2><a href="#">Heading</a></h2>
+                                <img src="https://www.thefooddictator.com/wp-content/uploads/2015/12/image2.jpeg">
+                        </li>
+                    </ul>
+                </section>");
+}
+
+var number
+
+makeFood();
