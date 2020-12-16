@@ -14,7 +14,7 @@ h1 {
 }
 
 h2 {
-    color: #ffffff;
+    color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16pt;
 }
@@ -62,7 +62,7 @@ body {
     padding: 8px;
     width: 100%;
     background-color: #d62828;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
  }
@@ -81,6 +81,7 @@ body {
 
 .card-1 {
     background-color: #242423;
+    background-image: url(https://www.thefooddictator.com/wp-content/uploads/2015/12/image2-1200x799.jpeg);
     min-width: 200px;
     max-width: 400px;
     float: left;

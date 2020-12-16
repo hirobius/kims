@@ -24,27 +24,24 @@ function orderUp(){
 }
 orderUp();
 
-function howHungry(){
+function counter(){
     for (var i = 0; i < 10; i++)
         console.log(i);
 }
-howHungry();
+counter();
 
-function makeFood(){
-   
+function hunger(message) {
+    var hunger = prompt(message);
+    return hunger;
 }
+ // maybe move this below the next function
 
 var hunger = prompt("How many cabbage would you like?");
-for (var makeFood = 0; makeFood < hunger; makeFood++) {
-    document.write("<section class= "card-1">
-                    <ul>
+    for (var makeFood = 0; makeFood < hunger; makeFood++) {
+    document.getElementsByClassName(section class = "card-1")
                         <li>
                             <h2><a href="#">Heading</a></h2>
                                 <img src="https://www.thefooddictator.com/wp-content/uploads/2015/12/image2.jpeg">
                         </li>
-                    </ul>
-                </section>");
-}
-
-
-if(response === "a") alert("Nice, dude.");
+                   </section>);
+                   }
