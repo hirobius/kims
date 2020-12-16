@@ -34,11 +34,6 @@ function makeFood(){
    
 }
 
-
-var hunger = prompt(promptQuestion);
-
-if(response === "a") alert("Nice, dude.");
-
 var hunger = prompt("How many cabbage would you like?");
 for (var makeFood = 0; makeFood < hunger; makeFood++) {
     document.write("<section class= "card-1">
@@ -51,6 +46,5 @@ for (var makeFood = 0; makeFood < hunger; makeFood++) {
                 </section>");
 }
 
-var number
 
-makeFood();
+if(response === "a") alert("Nice, dude.");
