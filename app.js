@@ -25,7 +25,15 @@ function orderUp(){
 orderUp();
 
 function howHungry(){
-for (var i = 0; i < 10; i++)
-    console.log(i);
+    for (var i = 0; i < 10; i++)
+        console.log(i);
 }
 howHungry();
+
+var promptQuestion = "How many cabbage would you like?";
+function manyFood(){
+    hunger = prompt(promptQuestion);
+    for (var hunger = 0; hunger < (hunger); hunger++) {
+    document.createElement(<section class= "card-1">);
+}
+manyFood(hunger);
