@@ -22,7 +22,7 @@ function learnLetter(){
             alert("Beauful :)"); 
             shouldIKeepLooping = false;
         } else {
-            alert("Please Try Again. Riddle: What letter does the first name start with?");
+            alert("Please Try Again. \r\n \r\nRiddle: What letter does the first name start with?");
         }
     } while (shouldIKeepLooping);
 }
