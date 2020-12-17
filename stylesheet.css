@@ -14,7 +14,7 @@ h1 {
 }
 
 h2 {
-    color: #000000;
+    color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16pt;
 }
@@ -27,31 +27,27 @@ a {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 img {
-    width: 200px;
+    width: 100%;
     height: auto;
-}
-
-.nav{
-    display: inline;
-    padding: 20px;
-    background-color: #d62828;
-    overflow: hidden;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 12px;
-    font-weight: bold;
+    border-radius: 6px;
 }
 
 body { 
     margin-top: 40px;
-    margin: auto;  
+    margin: auto;
+    width: 80%;
     padding: 8px #000000;
     background-color: #333533;
+    
+}
+section {
     
 }
 
@@ -67,6 +63,21 @@ body {
     font-family: Arial, Helvetica, sans-serif;
  }
 
+
+.nav{
+    display: inline;
+    padding: 20px;
+    margin: auto;
+    border-radius: 6px;
+    background-color: #d62828;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
 .background-red {
     background-color: red;
 }
@@ -81,12 +92,10 @@ body {
 
 .card-1 {
     background-color: #242423;
-    background-image: url(https://www.thefooddictator.com/wp-content/uploads/2015/12/image2-1200x799.jpeg);
-    min-width: 200px;
-    max-width: 400px;
     float: left;
+    max-width: 320px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-right: 20px;
     border-radius: 16px;
 }
