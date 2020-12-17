@@ -36,8 +36,13 @@ function hunger(message) {
 }
 
 var hunger = prompt("How much cabbage would you like?");
-var imgKim = "https://www.thefooddictator.com/wp-content/uploads/2015/12/image2.jpeg";
+var imgKim = '<section class= "card-1">' +
+                    '<ul>' +
+                        '<h2><a href="#">Heading</a></h2>' +
+                            '<img src="https://www.thefooddictator.com/wp-content/uploads/2015/12/image2.jpeg">' +
+                    '</ul>' +
+                '</section>';
 
-for (var i = 0; i < hunger; i++) {
-    document.write(imgKim);
+    for (var i = 0; i < hunger; i++) {
+        document.write(imgKim);
 }
