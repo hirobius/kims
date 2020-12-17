@@ -6,29 +6,27 @@ automaticEngine();
 // Intended to gather the first letter of user's name
 var response;
 var promptQuestion = "Riddle: What letter does the first name start with?"; 
+
 function learnLetter(){
-    response = prompt(promptQuestion);
-    response = response.toLowerCase();
-    if(response === "a") alert("Nice, dude.");
-    else if(response === "b") alert("I mean...");
-    else if(response === "m") alert("Beauful :)");
-    else learnLetterAgain();
-    console.log(response);
-    return response;
+    var shouldIKeepLooping = true;
+    do {
+        response = prompt(promptQuestion);
+        response = response.toLowerCase();
+        if(response === "a") {
+            alert("Nice, dude.");
+            shouldIKeepLooping = false;
+        } else if(response === "b") {
+            alert("I mean...");
+            shouldIKeepLooping = false;
+        } else if(response === "m") {
+            alert("Beauful :)"); 
+            shouldIKeepLooping = false;
+        } else {
+            alert("Please Try Again. Riddle: What letter does the first name start with?");
+        }
+    } while (shouldIKeepLooping);
 }
 learnLetter();
-
-var response2;
-var promptQuestion2 = "Please Try again. Riddle: What letter does the first name start with?"; 
-function learnLetterAgain(){
-    response2 = prompt(promptQuestion2);
-    if(response2 === "a") alert("Nice, dude.");
-    else if(response2 === "b") alert("I mean...");
-    else if(response2 === "m") alert("Beauful :)");
-    else learnLetterAgain();
-    console.log(response2);
-}
-learnLetterAgain();
 
 var order;
 function orderUp(){
