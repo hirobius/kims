@@ -34,14 +34,17 @@ function hunger(message) {
     var hunger = prompt(message);
     return hunger;
 }
+
  // maybe move this below the next function
 
-var hunger = prompt("How many cabbage would you like?");
-    for (var makeFood = 0; makeFood < hunger; makeFood++) {
-    document.getElementsByClassName(section class = "card-1")
-                        <li>
-                            <h2><a href="#">Heading</a></h2>
-                                <img src="https://www.thefooddictator.com/wp-content/uploads/2015/12/image2.jpeg">
-                        </li>
-                   </section>);
-                   }
+//  var hunger = prompt("How many cabbage would you like?");
+//     for (var makeFood = 0; makeFood < hunger; makeFood++) {
+//     document.getElementsByClassName(section class = "card-1")
+//                         <li>
+//                             <h2><a href="#">Heading</a></h2>
+//                                 <img src="https://www.thefooddictator.com/wp-content/uploads/2015/12/image2.jpeg">
+//                         </li>
+//                    </section>);
+//                    }
+
+-
